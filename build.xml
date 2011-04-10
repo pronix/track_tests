@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="run" name="test">
+
+  
+  <property name="target.jar" value="package/jar/knowledge.jar" />
+  <property name="lib.jar" value="package/jar/lib/java/jruby-complete.jar/" />
+  <property name="launch4j.dir" value="/home/shem/workspace/pronix/launch4j" />
+  <property name="release.dir" value="package/release" />
+  <property name="main.class" value="com.pronix.knowledge.Launch" />
+
+  <target name="jar">
+    <delete dir="${release.dir}" />
+    <mkdir dir="${release.dir}" />
+    <property name="jar.dir" value="${release.dir}/jar" />
+    <delete dir="${jar.dir}" />
+    <mkdir dir="${jar.dir}" />
+    <unjar src="${target.jar}" dest="${jar.dir}" />
+    <unjar src="${lib.jar}" dest="${jar.dir}" />
+    <jar compress="true" destfile="${release.dir}/release.jar">
+      <manifest>
+				<attribute name="Main-Class" value="${main.class}" />
+			</manifest>
+			<fileset dir="${jar.dir}" />
+		</jar>
+    <delete dir="${jar.dir}" />
+    
+  </target>
+
+
+  <target name="en-exe">
+		<taskdef name="launch4j" classname="net.sf.launch4j.ant.Launch4jTask"
+             classpath="${launch4j.dir}/launch4j.jar:${launch4j.dir}/lib/xstream.jar"/>
+		<launch4j>
+      <config headerType="gui" outfile="${release.dir}/knowledge_en.exe"
+              dontWrapJar="true" jarPath="release.jar" >
+        <!-- jarPath="${release.dir}/release.jar"> -->
+        <classPath mainClass="${main.class}">
+          <cp>${release.dir}/release.jar</cp>
+        </classPath>
+        <jre minVersion="1.4.0">
+          <opt>-Djruby.home="classpath:META-INF/jruby.home" -Dmaster.lang=en -Dtheme=Nimbus</opt>
+        </jre>
+      </config>
+    </launch4j>
+	</target>
+
+  <target name="ru-exe">
+		<taskdef name="launch4j" classname="net.sf.launch4j.ant.Launch4jTask"
+             classpath="${launch4j.dir}/launch4j.jar:${launch4j.dir}/lib/xstream.jar"/>
+		<launch4j>
+      <config headerType="gui" outfile="${release.dir}/knowledge_ru.exe"
+              dontWrapJar="true" jarPath="release.jar" >
+        <!-- jarPath="${release.dir}/release.jar"> -->
+        <classPath mainClass="${main.class}">
+          <cp>${release.dir}/release.jar</cp>
+        </classPath>
+        <jre minVersion="1.4.0">
+          <opt>-Djruby.home="classpath:META-INF/jruby.home" -Dmaster.lang=en -Dslave.lang=ru -Dtheme=Nimbus</opt>
+        </jre>
+      </config>
+    </launch4j>
+	</target>
+
+  <target name="exe" depends="jar">
+    <antcall target="en-exe" />
+    <antcall target="ru-exe" />
+  </target>
+
+
+  <target name="compile">
+    <javac destdir="package/classes/java/" classpath="lib/java/jruby-complete.jar">
+      <src path="./src/"/>
+    </javac>
+
+    <exec executable="jruby">
+      <arg value="-S"/>
+      <arg value="rake"/>
+      <arg value="rawr:compile_ruby_classes"/>
+    </exec>
+  </target>
+
+  <target name="create-jar" depends="compile">
+    <exec executable="jruby">
+      <arg value="-S"/>
+      <arg value="rake"/>
+      <arg value="rawr:jar"/>
+    </exec>
+  </target>
+
+  <target name="run" depends="create-jar">
+    <!-- <java classname="org.rubyforge.rawr.Main" failonerror="true" fork="yes"> -->
+    <java classname="${main.class}" failonerror="true" fork="yes">
+      <arg value="-Dmaster.lang=en"/>
+      <arg value="-Dslave.lang=ru"/>
+			<classpath>
+				<fileset dir="package/jar">
+					<include name="knowledge.jar"/>
+				</fileset>
+			</classpath>
+    </java>
+  </target>
+
+</project>

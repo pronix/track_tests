@@ -1,0 +1,25 @@
+ru:
+  variants: Варианты
+  exit: Выход
+  question: Вопрос
+  results: Резальтаты
+  expire: Срок действия ключа - осталось {days}
+  total: Всего
+  wrong: Не верно
+  right: Верно
+  auth: Авторизация
+  input_key: Введите ключ
+  input: Ввод
+  start_quest_number: Введите номер первого вопроса
+  start_with: Начать с вопроса
+  start: Начать с начала
+  repeat: Повторить вопросы с ошибками
+  total_quest: Всего отвеченных вопросов
+  right_quest: Правильных
+  wrong_quest: Ошибочных
+  skip: Пропустить
+  day: день
+  few_days: дня
+  huge_days: дней
+  add_trans: Добавить перевод
+  hide_trans: Убрать перевод

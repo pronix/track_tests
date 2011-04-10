@@ -1,0 +1,3177 @@
+- !ruby/object:YAML::Task
+  number: 1
+  question: 'You are driving on a straight, level highway at 50 mph. There are no vehicles in front of you. Suddenly a tire blows out on your vehicle. What should you do first?'
+  right: A
+  variants: [
+              'Stay off the brake until the vehicle has slowed down.',
+              'Quickly steer onto the shoulder.',
+              'Begin, light braking.',
+              'Begin emergency braking.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 2
+  question: 'You are driving a new truck with manual transmission. What gear will you probably have to use to take a long, steep downhill grade?'
+  right: B
+  variants: [
+              'The same gear you would use to climb the hill.',
+              'A lower gear then you would use to climb the hill.',
+              'A higher gear then you would use to climb the hill.',
+              'None newer trucks can coast down hills.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 3
+  question: 'You are checking your wheels and rims for a pre-trip inspection. Which of these statements is true?'
+  right: A
+  variants: [
+              'Rust around wheel nuts may mean that they are loose.',
+              'Cracked wheels or rims can. Be used if they have been welded',
+              'A vehicle can be safely driven with one missing lug nut on a wheel.',
+              'Mismatched lock rings can be used on the same vehicle.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 4
+  question: 'You are checking your tires for a pre-trip inspection. Which of these statements is true?'
+  right: B
+  variants: [
+              'Dual tires should be touching each other.',
+              'Tires of mismatched sizes should not be used together in the same vehicle.',
+              'Radial and bias-ply tires can be used together on the same vehicle.',
+              '2/32-inch tread depth is safe for the front tires.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 5
+  question: 'If a straight vehicle (not trailer or articulation) goes into front-wheel skid, it will:'
+  right: C
+  variants: [
+              'Slide sideways and spin out',
+              'Slide sideways somewhat, but not spin out',
+              'Go straight ahead even if the steering wheel is turned',
+              'Go straight ahead but will turn if you turn the steering wheel.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 6
+  question: 'If you need to leave the road in a traffic emergency, you should:'
+  right: C
+  variants: [
+              'Try to get all wheels off the pavement',
+              'Brake as hard as you leave the road',
+              'Avoid braking until your speed has dropped to about 20 mph',
+              'Avoid the shoulder because most shoulders will not support a large vehicle.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 7
+  question: 'Which of these statements about certain types of cargo is true?'
+  right: A
+  variants: [
+              'Unstable loads such as hanging meat or livestock can require extra caution on curves.',
+              'Oversize loads can be hauled without special permits during times when the roads are not busy.',
+              'Loads that consist of liquids in bulk do not cause handling problems because they are usually very heavy.',
+              'When liquids are hauled the tank should always be loaded totally full.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 8
+  question: 'According to the driver''s manual, why you should limit the use of your horn?'
+  right: A
+  variants: [
+              'It can startle other drivers.',
+              'On vehicles with air brakes it can use air pressure that may be needed to stop.',
+              'The horn is not a good way to let others know you are there.',
+              'You should keep both hands tightly gripping the steering wheel at all times.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 9
+  question: 'You do not have a hazardous materials endorsement on your commercial driver''s license. You are asked to deliver hazardous materials in a placarded vehicle. You should:'
+  right: A
+  variants: [
+              'Refuse to haul the load',
+              'Take the placards off the vehicle,',
+              'Haul the load but only to the nearest place where a driver with Hazardous Materials Endorsement can take over.',
+              'Haul the load but file a report with the Department of Transportation after the trip.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 10
+  question: 'Which of these statements about staying alert to drive is true?'
+  right: D
+  variants: [
+              'A half-hour break for coffee will do more to keep you alert than a half-hour nap.',
+              'There are drugs that can overcome being bred',
+              'If you must stop to take a nap, it should be at a truck stop or other rest area never on the side of the road',
+              'Sleep is the only thing that can overcome fatigue.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 11
+  question: 'Your vehicle has hydraulic brakes. While traveling on a level road, you press the brake pedal and find that it goes to the floor. Which of these statements is true?'
+  right: B
+  variants: [
+              'You should not downshift if you have an automatic transmission.',
+              'Pumping the brake pedal may bring the pressure up so you can stop the vehicle.',
+              'The parking brake will not work either because it is part of the same hydraulic system.',
+              'All of the above are true.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 12
+  question: 'You are driving a vehicle at 55 mph on dry pavement. About how much total stopping distance will you need to bring it to a stop?'
+  right: D
+  variants: [
+              'The length of the vehicle.',
+              'Twice the length of the vehicle.',
+              'Half the length of a football field',
+              'The length of a football field'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 13
+  question: 'Which if these statements about cold weather driving is true?'
+  right: B
+  variants: [
+              'An engine cannot overheat when the weather is very cold',
+              'Windshield washer antifreeze should be used',
+              'Exhaust system leaks are less dangerous in cold weather.',
+              'In snowstorms, wiper blades should be adjusted so that they do not make direct contact with the windshield'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 14
+  question: 'When driving at night, you should:'
+  right: C
+  variants: [
+              'Look to the left side of the road when a vehicle is coming toward you.',
+              'Drive faster when your low beams are on.',
+              'Adjust your speed to keep your stopping distance within your sight distance.',
+              'Dim your lights within 300 feet of an oncoming vehicle.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 15
+  question: 'Which of these statements about downshifting is true?'
+  right: A
+  variants: [
+              'When you downshift for a curve, you should do so before you enter the curve.',
+              'When you downshift for a hill, you should so after you start down the hill',
+              'When double-clutching, you should let the RPMs decrease while the clutch is released and the shift lever is in neutral.',
+              'All of the above are true.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 16
+  question: 'For your safety, when setting out reflective triangles you should;'
+  right: B
+  variants: [
+              'Cаrry the triangles at your sight',
+              'Hold the triangles between yourself and oncoming traffic',
+              'Keep them out of sight while you walk to the spots where you set them out',
+              'Turn on your flasher.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 17
+  question: 'Which of these statements about backing a heavy vehicle is true?'
+  right: A
+  variants: [
+              'Backing is always dangerous.',
+              'You should back and turn toward the driver''s side whenever possible.',
+              'You should use a helper and communicate with signals.',
+              'All of the above are true.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 18
+  question: 'As the blood alcohol concentration (BAC) goes up, what happens?'
+  right: C
+  variants: [
+              'The drinker more clearly sees how alcohol is affecting him/her.',
+              'The effects of alcohol decrease.',
+              'Judgment and self-control are affected',
+              'The drinker can sober up in less time.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 19
+  question: 'What will help keep an engine cool in hot weather?'
+  right: D
+  variants: [
+              'Avoiding high speed driving.',
+              'Making sure the engine has the right amount of oil.',
+              'Proper V-belt tightness.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 20
+  question: 'Which of these is good thing to remember about using mirrors?'
+  right: C
+  variants: [
+              'You should look at a mirror for several seconds at a time.',
+              'Convex mirrors make things look larger and closer than they really are.',
+              'There are "blind spots" that your mirror cannot show.',
+              'You should check your mirrors twice for a lane change.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 21
+  question: 'Cargo that is not loaded or secured properly can cause:'
+  right: D
+  variants: [
+              'Vehicle damage by overloading.',
+              'Injury to the driver quick stops or crash.',
+              'Other highway users to hit or be hit by loose cargo.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 22
+  question: 'Hydroplaning:'
+  right: D
+  variants: [
+              'Only occurs when there is a lot of water.',
+              'Only occurs at speeds above 50 mph',
+              'Cannot occur when driving through a puddle.',
+              'Is more likely if tire pressure is low.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 23
+  question: 'When driving through a work zone, you should:'
+  right: D
+  variants: [
+              'Turn on your flasher.',
+              'Drive slowly.',
+              'Use your brake lights to warn drivers behind you.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 24
+  question: 'If you are being tailgated, you should:'
+  right: A
+  variants: [
+              'Increase your following distance.',
+              'Flash your brake lights.',
+              'Speed up.',
+              'Signal to a tailgater when it is safe to pass you.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 25
+  question: 'A key principle to remember about loading cargo is to keep the load:'
+  right: D
+  variants: [
+              'To the front.',
+              'To the rear.',
+              'As high as possible.',
+              'Balanced in the cargo area'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 26
+  question: 'How far should a driver look ahead of the vehicle while driving?'
+  right: C
+  variants: [
+              '1-2 seconds.',
+              '5-8 seconds.',
+              '12-15 seconds.',
+              '18-21 seconds.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 27
+  question: 'How do you correct a rear wheels acceleration skid?'
+  right: B
+  variants: [
+              'Apply more power to the wheels.',
+              'Stop accelerating.',
+              'Apply the brakes.',
+              'Downshift'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 28
+  question: 'The purpose of the retarders is to:'
+  right: B
+  variants: [
+              'Provide emergency brakes.',
+              'Help slow the vehicle while driving and reduce brake wear.',
+              'Apply extra braking power to the non-drive axles.',
+              'Help prevent skids.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 29
+  question: 'Controlled braking:'
+  right: C
+  variants: [
+              'Can be used when you are turning sharply.',
+              'Involves locking the wheels for short period of time.',
+              'Is used to keep a vehicle in a straight line when braking.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 30
+  question: 'Which of these is a good thing to do when steering to avoid a crash?'
+  right: C
+  variants: [
+              'Apply the brakes while turning.',
+              'Steer with one hand so that you can turn the wheel more quickly.',
+              'Don''t turn anymore than need to clear what is in your way.',
+              'Avoid counter steering.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 31
+  question: 'You should stop driving:'
+  right: D
+  variants: [
+              'After 5 hours.',
+              'After 7 hours.',
+              'After 9 hours.',
+              'Whenever you become sleepy.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 32
+  question: 'Escape ramps are:'
+  right: D
+  variants: [
+              'Are used to stop runaway vehicles.',
+              'Designed to prevent injury to driver and passengers.',
+              'Designed to prevent damage of the vehicles.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 33
+  question: 'Which of these items is checked in a pre-trip inspection?'
+  right: D
+  variants: [
+              'Whether all vehicle working and are clean.',
+              'Wiper blades.',
+              'Cargo securement',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 34
+  question: 'Which of these is not a good rule to follow when caring for injured persons at an accident scene?'
+  right: C
+  variants: [
+              'If a qualified person is helping them, stay out of the way unless asked to assist.',
+              'Stop heavy bleeding by applying direct pressure to the wound',
+              'Keep injured persons cool.',
+              'Move severely injured persons if there is a danger due to fire or passing traffic.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 35
+  question: 'You are checking your steering and exhaust system in a pre-trip inspection. Which of these problems, if found, should be fixed before the vehicle is driven:'
+  right: D
+  variants: [
+              'A small leak of power steering fluid',
+              'Leaks in the exhaust system.',
+              'Steering wheel play of more than 10 degrees (2 inches on 20 inches steering wheel).',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 36
+  question: 'You should avoid driving through deep puddles or flowing water. But if you must, which of these steps can help keep your brakes working?'
+  right: B
+  variants: [
+              'Driving through quickly.',
+              'Gently putting on the brakes while driving through the water.',
+              'Applying hard pressure on both the brake pedal and accelerator after coming out of the water.',
+              'Turning on your brake heater.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 37
+  question: 'Which of these statements about drugs is true?'
+  right: C
+  variants: [
+              'A driver can use any prescription drug while driving.',
+              'Amphetamine, ("pep pills" or "bennies") can be used to help the driver stay alert.',
+              'Use of drugs can lead to accident and/or arrest',
+              'All of the above are true.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 38
+  question: 'Which of these is good thing to remember when crossing or entering traffic with a heavy vehicle?'
+  right: A
+  variants: [
+              'Heavy vehicles need larger gaps in traffic than cars.',
+              'The best way to cross the traffic is to pull the vehicle partway across the road and block one lane while waiting for the other to clear.',
+              'The heavier your load, the smaller the gap needed to cross traffic',
+              'Because heavy vehicles are easy to see, you can count on other drivers to move out of your way or slow down for you.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 39
+  question: 'You are driving a heavy vehicle with a manual transmission You have to stop the vehicle on the shoulder while driving on an uphill grade. Which of these is a good rule to follow when putting it back in motion up the grade?'
+  right: B
+  variants: [
+              'Keep the clutch slipping while slowly accelerating.',
+              'Use the parking brake to hold the vehicle until the clutch engages.',
+              'Let the vehicle roll straight backwards a few feet before you engage the clutch.',
+              'Let the vehicle roll backwards a few feet before you engage the clutch, but turn the wheel so that the back moves away from the roadway.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 40
+  question: 'You are driving a heavy vehicle. You must exit a highway using an off ramp that curves downhill. You should:'
+  right: A
+  variants: [
+              'Slow down to a safe speed before the curve.',
+              'Slow to the posted speed limit for the off ramp.',
+              'Come to a full stop at the top of the ramp.',
+              'Wait until you are in the curve before downshifting.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 41
+  question: 'You must park on a side of a level, straight, four-lane divided highway. Where should you place the reflective triangles?'
+  right: A
+  variants: [
+              'One within 10 feet of the rear of the vehicle. One about 100 feet to the rear, and one about 200 feet to the rear.',
+              'One within 10 feet of the rear of the vehicle. One about 100 feet to the rear, and one about 100 feet to the front of the vehicle.',
+              'One about 50 feet to the rear of the vehicle, one about 100 feet to the rear and one about 100 fed to the front of the vehicle.',
+              'One within 10 feet of the front of the vehicle, one about 100 feet to the rear, and one about 200 feet to the rear.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 42
+  question: 'You are driving on a two-lane roaD An oncoming driver drifts into your lane and is headed straight for you Which of these is most often the best action to take?'
+  right: C
+  variants: [
+              'Hard braking.',
+              'Steer into the oncoming lane',
+              'Steer to the right',
+              'Steer onto the left shoulder.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 43
+  question: 'Which of these is a proper use of vehicle lights?'
+  right: D
+  variants: [
+              'Flashing your brakes lights to warn someone behind you that you are going to stop on the road',
+              'Turning on your headlights during the day when visibility is reduced due to rain or snow.',
+              'Flashing your brake lights to warn someone behind you of hazard that will require slowing down.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 44
+  question: 'Brake "fade":'
+  right: A
+  variants: [
+              'Can be caused by the brakes getting very hot.',
+              'Can be corrected by letting up on the brakes for 1 -2 seconds and then reapplying them.',
+              'Is a problem that only occurs with drum brakes.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 45
+  question: 'Which of these statements about engine overheating is true?'
+  right: C
+  variants: [
+              'If your engine overheats within 20 miles of the end of your trip, you should complete the trip and then check the problem',
+              'You should never shut off an overheated engine until it cools.',
+              'You should never remove the radiator cap on a pressured system until the system is cooled',
+              'Antifreeze is not needed when the weather is warm.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 46
+  question: 'Which of these statements about overhead clearance is true?'
+  right: B
+  variants: [
+              'You should assume posted clearance signs are correct',
+              'The weight of a vehicle changes it height',
+              'If the road surface causes your vehicle to tilt toward objects at the edge of the road, you should drive close to the shoulder.',
+              'Extra speed will cause air to push your vehicle down for extra clearance.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 47
+  question: 'Which of these statements about vehicle fire is true?'
+  right: D
+  variants: [
+              'If cargo in a van or box trailer catches fire, you should open the cargo door as soon as possible.',
+              'If your engine is on fire, you should open the hood as soon as you can.',
+              'If a tire is on fire, you should drive fast to put the flames out',
+              'A burning tire should be cooled with water.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 48
+  question: 'You are driving a long vehicle that makes wide turns. You want to turn left from Pine Street onto Cedar Street Both are two-lane two-way streets. You should:'
+  right: B
+  variants: [
+              'Begin turning your vehicle as soon as you enter the intersection.',
+              'Begin turning your vehicle when you are halfway through the intersection.',
+              'Begin torn with your vehicle in the left lane of Pine Street.',
+              'Turn into the left lane of Cedar Street and then move to right lane when the traffic is clear.'
+            ]
+  image: '48.jpg'
+
+- !ruby/object:YAML::Task
+  number: 49
+  question: 'You must drive on a slippery road. Which of these is good thing to do in such a situation?'
+  right: C
+  variants: [
+              'Use a smaller following distance.',
+              'Apply the brakes while in curves.',
+              'Slow down gradually.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 50
+  question: 'Which of these statements about acceleration is true?'
+  right: B
+  variants: [
+              'When traction is poor, more power should be applied to the accelerator.',
+              'Rough acceleration can cause mechanical damage.',
+              'You should feel a jerking motion if you accelerate your vehicle properly.',
+              'All of the above are true.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 51
+  question: 'Which of these statements about brakes is true?'
+  right: A
+  variants: [
+              'The heavier a vehicle or the faster it is moving, the more heat the brakes have to absorb to stop it',
+              'Brakes have more stopping power when they get very hot',
+              'Brake drums cool very quickly when the vehicle is moving very fast.',
+              'All of the above are true.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 52
+  question: 'When the roads are slippery, you should:'
+  right: B
+  variants: [
+              'Drive alongside other vehicles.',
+              'Make turns as gently as possible.',
+              'Stop and test the traction с while going up hills.',
+              'Decrease the distance that you look ahead of your vehicle.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 53
+  question: 'You are checking your brakes and suspension system for a pre-trip inspection. Which of these statements is true?'
+  right: D
+  variants: [
+              'Brake shoes should not oil, grease or brake fluid on them',
+              'One missing leaf in a leaf spring can be dangerous.',
+              'Cracked drums should be replaced',
+              'All of the above are true.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 54
+  question: 'Which of these pieces of emergency equipment should always be carried in your vehicle?'
+  right: D
+  variants: [
+              'Fire extinguisher.',
+              'Spare electrical fuses (if the vehicle uses them).',
+              'Warning devices for parked cars.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 55
+  question: 'Which of these can cause a vehicle to skid?'
+  right: D
+  variants: [
+              'Turning too sharply.',
+              'Not enough weight of the front axle.',
+              'Over acceleration.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 56
+  question: 'The driver''s manual suggests several things to do, when you pass a vehicle. Which of these is not the one of them?'
+  right: B
+  variants: [
+              'Lightly tap your horn.',
+              'At night, turn on your high beams before you start to pass and leave them on until you have completely passed the vehicle.',
+              'Drive carefully to avoid a crash',
+              'Assume that the other driver does not see you.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 57
+  question: 'The distance that you should look ahead of your vehicle while driving amounts to about miles at normal highway speed'
+  right: C
+  variants: [
+              '1/10.',
+              '1/8.',
+              '1/4.',
+              '1/2.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 58
+  question: 'You axe starting your vehicle in motion from a stop. As you apply power to the drive wheels, they start to spin. You should:'
+  right: A
+  variants: [
+              'Take your foot off the accelerator.',
+              'Take your foot off the accelerator and apply the brakes.',
+              'Press harder on the accelerator.',
+              'Try a lower gear.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 59
+  question: 'Which of these is the most important thing to remember about emergency braking?'
+  right: C
+  variants: [
+              'It helps keep the brake linings clean.',
+              'Disconnecting the steering axle brakes will keep your vehicle in a straight line during emergency braking.',
+              'If the wheels are skidding, you cannot control your vehicle.',
+              'Never do it without downshifting first'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 60
+  question: 'Which of these statements about tires and hot weather driving is true?'
+  right: B
+  variants: [
+              'If a tire is too hot to touch, you should drive on it to cool it off.',
+              'You should inspect your tires every two hours or every 100 miles when driving in very hot weather.',
+              'The air pressure of a tire decreases as the temperature of the tire increases.',
+              'If tire is too hot to touch, five or ten pounds of pressure out would cool them down.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 61
+  question: 'You should use mirrors to check:'
+  right: D
+  variants: [
+              'The condition of your tires.',
+              'Where the rear of your vehicle is while you make turns.',
+              'Traffic gaps when merging.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 62
+  question: 'Your vehicle is in a traffic emergency and may collide with another vehicle if you do not take action. Which of these is a good rule to remember at such a time?'
+  right: A
+  variants: [
+              'You can almost always turn to miss an obstacle more quickly than you can stop.',
+              'Stopping is always the safest action in a traffic emergency.',
+              'Leaving the road is always more risky than hitting another vehicle.',
+              'Unbuckle your safety belt before impact so you will not be trapped inside your vehicle.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 63
+  question: 'Which of these statements about speed management is true?'
+  right: D
+  variants: [
+              'On a wet road you should reduce your speed by about one third',
+              'On packed snow you should reduce your speed by at least one-half.',
+              'When the road is slippery, it will take longer to stop and it will be harder to turn without skidding.',
+              'All of the above are true.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 64
+  question: 'Which fires can you use water to put out?'
+  right: A
+  variants: [
+              'Tire fires.',
+              'Gasoline fires.',
+              'Electrical fires.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 65
+  question: 'To help you stay alert while driving; you should:'
+  right: A
+  variants: [
+              'Take short breaks before you get drowsy.',
+              'Schedule trips for hours that you axe normally asleep.',
+              'Take cold medicine if you have a cold',
+              'Do all of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 66
+  question: 'To avoid a crash, you had to drive into the right shoulder. You arc now driving at 40 mph on the shoulder. How should you move back into the pavement?'
+  right: A
+  variants: [
+              'If the shoulder is clear, stay on the right until your vehicle comes to a stop then move back into a pavement when it is safe.',
+              'Brake hard to slow the vehicle, then steer sharply onto the pavement',
+              'Steer sharply onto the pavement, then break hard as you counter steer.',
+              'Keep moving at the present speed and steer very gently back onto the pavement'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 67
+  question: 'Which of these statements about driving in areas with strong wind is true?'
+  right: C
+  variants: [
+              'You should drive alongside other vehicles to help break up the wind',
+              'The lighter your vehicle, the less trouble you will have with the wind',
+              'Winds are especially a problem when coming out of tunnels.',
+              'You can lessen the effects of the wind by letting some air out of your tires.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 68
+  question: 'Which of these is a good thing to do when driving at night?'
+  right: A
+  variants: [
+              'Keep your speed slow enough that you can stop within the range of your headlights.',
+              'Look directly at the oncoming headlights only briefly.',
+              'Wear sunglasses.',
+              'Keep your instrument lights bright'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 69
+  question: 'You are driving a 40-foot vehicle at 35 mph. The road is dry and visibility is gooD What is the least amount of space you should keep in front of your vehicle to be safe?'
+  right: C
+  variants: [
+              '2 seconds.',
+              '3 seconds.',
+              '4 seconds.',
+              '5 seconds.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 70
+  question: 'What is the proper way to hold a steering wheel?'
+  right: D
+  variants: [
+              'With one hand',
+              'With both hands close together, near the top of the wheel.',
+              'With both hands close together, near the bottom of the wheel.',
+              'With both hands, on opposite sides of the wheel'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 71
+  question: 'High beams should be:'
+  right: A
+  variants: [
+              'Used when it is safe and legal to do so.',
+              'Turned on when an oncoming driver does not dim his/her lights.',
+              'Dimmed at the time that you get within 100 feet of another vehicle.',
+              'Ail of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 72
+  question: 'You can see a marking on a vehicle ahead of you. The marking is a red triangle with an orange center. What does the marking mean?'
+  right: A
+  variants: [
+              'It may be a slow moving vehicle.',
+              'The vehicle is hauling hazardous materials.',
+              'It is a law enforcement vehicle.',
+              'It is being driven by a student driver.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 73
+  question: 'Which of these is not port of the pre-trip inspection of the engine compartment?'
+  right: A
+  variants: [
+              'Valve clearance.',
+              'Engine oil level.',
+              'Condition of hoses.',
+              'Worn electrical wiring insulation.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 74
+  question: 'The road you are driving on becomes very slippery due to glare ice. Which of these is a good thing to do in such a situation?'
+  right: A
+  variants: [
+              'Stop driving as soon as you can safely do so.',
+              'Downshift to stop.',
+              'Apply the brakes often to keep the linings dry.',
+              'Keep varying your speed by accelerating and braking.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 75
+  question: 'Which of these is a sign of tire failure?'
+  right: D
+  variants: [
+              'Steering that feels heavy.',
+              'A loud «bang».',
+              'Vibration.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 76
+  question: 'You wish to turn right from one two-lane, two-way street to another. Your vehicle is so long that you must swing wide to make the turn. Which of these figures show''s how the turn should be made.'
+  right: B
+  variants: [
+              '',
+              '',
+              '',
+              ''
+            ]
+  image: '76.jpg'
+
+- !ruby/object:YAML::Task
+  number: 77
+  question: 'You are driving a vehicle that could safely be driven at 55 mph on an open road. But traffic is heavy and other vehicles drive at 35 mph, though the speed limit is 55. The safest speed for your vehicle is more likely to be:'
+  right: B
+  variants: [
+              '25 mph.',
+              '35 mph',
+              '45 mph.',
+              '55 mph.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 78
+  question: 'What is counter steering?'
+  right: D
+  variants: [
+              'Turning the steering wheel counterclockwise.',
+              'Steering in the opposite direction from what other drivers expect you to do.',
+              'Using the steering axle brakes to prevent over steering.',
+              'Turning the wheel back in the other direction after steering to avoid a traffic emergency.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 79
+  question: 'Which of these can cause a fire?'
+  right: D
+  variants: [
+              'Under inflated tires.',
+              'Loose fuel connection.',
+              'Electrical short-circuits.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 80
+  question: 'Which of these is a good thing to remember about drinking alcohol?'
+  right: D
+  variants: [
+              'Alcohol first affects judgment and self-control, which are necessary for safe driving.',
+              'The chance of crashing is much greater for drivers who have been drinking than for drivers who have not.',
+              'A driver can loose his/her license for driving while drunk.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 81
+  question: 'Which of these statements about backing a heavy vehicle is true?'
+  right: A
+  variants: [
+              'You should avoid backing whenever you can.',
+              'Helpers should be out of the driver''s sight and use only voice (spoken) signals to communicate with, the driver.',
+              'It is safer to back toward the right side of the vehicle than toward the driver''s side.',
+              'All of the above are true.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 82
+  question: 'Which of these statements about marking a stopped vehicle is true?'
+  right: A
+  variants: [
+              'If a hill or curve keeps drivers behind you from seeing the vehicle within 500 feet, the rear reflective triangle should be moved down the road to give adequate warning.',
+              'You do not need to put out reflective triangles unless the vehicle will be stopped for 30 minutes or more.',
+              'The vehicle''s tail lights should be kept on to warn other drivers.',
+              'All of the above are true.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 83
+  question: 'Which of these best describes how you should use the brake pedal on a steep downhill grade?'
+  right: B
+  variants: [
+              'Light, pumping action.',
+              'Light, steady pressure.',
+              'Repeated strong pressure then release.',
+              'With stronger pressure as the vehicle goes downhill.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 84
+  question: 'Which of these statements about using turn signals is true?'
+  right: C
+  variants: [
+              'When turning, you should cancel the signal just before you make the turn.',
+              'You do not need to use your turn signal when changing lanes in traffic on a four-lane highway.',
+              'When turning, you should signal early.',
+              'You should use your turn signal to mark your vehicle when it is pulled off on the side of the road'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 85
+  question: 'Which of these statements about double clutching and shifting is true?'
+  right: A
+  variants: [
+              'You can use the tachometer to tell you when to shift',
+              'Double clutching should not be used when the road is slippery.',
+              'Double clutching should only be used with a heavy load'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 86
+  question: 'Which of these would tell you that a shipment contains hazardous materials?'
+  right: D
+  variants: [
+              'The name of hazard class on the shipping paper',
+              'A four-inches, diamond shaped hazardous materials label on the container.',
+              'A hazardous materials placards on the vehicle.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 87
+  question: 'Which of these statements about speed management is true?'
+  right: C
+  variants: [
+              'Empty trucks always stop in a shorter distance than fully loaded',
+              'When you double your speed (go twice as fast), it will take twice the distance to stop.',
+              'You should choose a speed that lets you stop within the distance that you can see ahead'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 88
+  question: 'Retarders:'
+  right: A
+  variants: [
+              'Can cause the driver wheels to skid when they have poor traction.',
+              'Allow you to disconnect the steering axle brakes.',
+              'Cause extra brake wear',
+              'Work when you apply the brake pedal.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 89
+  question: 'An on route inspection should include checking for:'
+  right: D
+  variants: [
+              'Tires overheating.',
+              'Brake overheating,',
+              'Cargo securement',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 90
+  question: 'To correct a drive wheels braking skid, you should:'
+  right: A
+  variants: [
+              'Stop braking, turn quickly, and then counter steer.',
+              'Increase braking.',
+              'Increase braking, turn quickly, and counter steer.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 91
+  question: 'When exiting or entering on a curved freeway ramp, you should:'
+  right: A
+  variants: [
+              'Maintain a speed 5-10 mph under the posted speed limit',
+              'Maintain the posted speed limit',
+              'Slow down to at least 50% of the posted speed limit',
+              'Go faster than the posted speed limit if you are familiar with the ramp and know your vehicle can handle it.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 92
+  question: 'On which fires can you use the "ABC" fire extinguisher?'
+  right: D
+  variants: [
+              'Electrical fires.',
+              'Burning liquids.',
+              'Binning clothes.',
+              'A11 of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 93
+  question: 'Which of the following vehicles will have the longest stopping distance?'
+  right: C
+  variants: [
+              'Empty truck.',
+              'Loaded truck.',
+              'Bobtail tractor.',
+              'Automobile.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 94
+  question: 'How many red reflective triangles are you required to carry?'
+  right: D
+  variants: [
+              '6',
+              '2',
+              '4',
+              '3'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 95
+  question: 'You are required to inspect your track within how many miles after beginning the trip?'
+  right: C
+  variants: [
+              '100.',
+              '150.',
+              '25.',
+              '200.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 96
+  question: 'There are two types of jackknife; they are:'
+  right: D
+  variants: [
+              'Trailer.',
+              'Tractor.',
+              'Wet-road jackknife.',
+              'Both A and B'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 97
+  question: 'The new BAC (Blood Alcohol Concentration) for commercial drivers to be considered intoxicated when driving a commercial vehicle is:'
+  right: A
+  variants: [
+              '0.04.',
+              '0.01.',
+              '0.05.',
+              '0.10.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 98
+  question: 'Where should the ignition key be during the pre-trip inspection?'
+  right: A
+  variants: [
+              'In your pocket.',
+              'In the ignition',
+              'On the driver''s seat',
+              'On the dashboard'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 99
+  question: 'When loading a trailer, if the load is loaded all to the rear, it may result, in:'
+  right: C
+  variants: [
+              'Wheel lockup.',
+              'Damage to steering axle.',
+              'Poor traction on drive wheels.',
+              'None of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 100
+  question: 'Communication means:'
+  right: B
+  variants: [
+              'Talking with law enforcement officers.',
+              'To communicate your intention to other motorists.',
+              'To talk on the CB radio.',
+              'To talk on your mobile phone.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 101
+  question: 'If you are convicted for driving under the influence while driving a commercial vehicle and this is your first offense, you most likely will get:'
+  right: B
+  variants: [
+              'A probation period for 1 year.',
+              'At least one year suspension of your CDL.',
+              'A fine of $250.00',
+              'A warning.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 102
+  question: 'If you are stopped at a roadside rest and found to have а BAC (Blood Alcohol Concentration) of 0.02 you will:'
+  right: D
+  variants: [
+              'Be placed out of service for 72 hours.',
+              'Be in deep trouble with your dispatcher.',
+              'Be placed out of service for 24 hours.',
+              'Both B and C'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 103
+  question: 'Which of the following statements about speed management is true?'
+  right: C
+  variants: [
+              'If you double your speed, stopping distance will double.',
+              'Empty trucks and loaded trucks will have the same stopping distance.',
+              'If you double your speed, stopping distance will be increased by 4 times.',
+              'Never follow closer to a vehicle than 100 feet.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 104
+  question: 'You are driving; a long vehicle that makes wide turns. You want to make a left turn from Elm Street onto Oak Street. There are two left turn lanes (marked A and B) on Elm Street Oak Street is a four-lane street with two lanes in each direction. You should:'
+  right: B
+  variants: [
+              'Use left turn lane A',
+              'Use left turn lane B',
+              'Start in left turn lane «A» and swing into left turn lane «B» just before entering the intersection.'
+            ]
+  image: '104.jpg'
+
+- !ruby/object:YAML::Task
+  number: 105
+  question: 'You are traveling down a long, steep hill Your brakes get so hot that they fail. What should you do?'
+  right: B
+  variants: [
+              'Downshift and pump the brake pedal.',
+              'Look for an escape ramp or escape route.',
+              'Both of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 106
+  question: 'The center of gravity of a load:'
+  right: B
+  variants: [
+              'Should be kept as high as possible.',
+              'Can make a vehicle more likely to tip over on curves if it is high.',
+              'Is only a problem if the vehicle is overloaded'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 107
+  question: 'To prevent a load from shifting, there should be at least one tie down for every feet of cargo.'
+  right: A
+  variants: [
+              '10.',
+              '15.',
+              '20.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 108
+  question: 'While driving, ice builds up on your wipers and they no longer clean the windshield. Yon should:'
+  right: C
+  variants: [
+              'Keep driving, and turn your defroster on',
+              'Keep driving and spray the windshield with washer fluid',
+              'Stop safely and fix the problem.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 109
+  question: 'When the hydraulic brakes fail while you are driving, the system will not build up pressure and the brake pedal will feel spongy or goes to the floor. What should you do?'
+  right: A
+  variants: [
+              'Pump the brake pedal to generate pressure.',
+              'Push down the brake pedal as hard as you can.',
+              'Put the vehicle in neutral and set the parking brake.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 110
+  question: 'Which may be a sign of tire failure?'
+  right: C
+  variants: [
+              'Wheels skidding.',
+              'A loud hissing noise.',
+              'Vibration.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 111
+  question: 'To prevent brake fade you should:'
+  right: C
+  variants: [
+              'Coast down a hill which is not very steep.',
+              'Apply constant hard pressure on the brakes while driving downhill.',
+              'Select the gear, which will keep your vehicle to a safe speed on a deep downgrade.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 112
+  question: 'A full stop is required at railroad crossing when:'
+  right: B
+  variants: [
+              'There are no flagmen, warning signals or gate at the crossing.',
+              'The nature of your cargo makes a stop mandatory under the State or Federal regulation.',
+              'The crossing is located in the city or town with a frequent train transit.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 113
+  question: 'When driving at eight you should use your low beams when within of how many feet?'
+  right: B
+  variants: [
+              '400',
+              '500',
+              '300'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 114
+  question: 'When driving through a work zone you should:'
+  right: C
+  variants: [
+              'Reduce your speed only if workers are close to the roadway.',
+              'Turn on your parking lights.',
+              'Watch for a sharp drop off.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 115
+  question: 'Backing of a commercial vehicle is:'
+  right: A
+  variants: [
+              'Always dangerous.',
+              'Is not dangerous if you don''t have to turn',
+              'Not dangerous if you have a helper.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 116
+  question: 'When you are parked at the side of the road at night you must:'
+  right: A
+  variants: [
+              'Turn on your four-way emergency flashers to warn others.',
+              'Put out your emergency warning lights within 30 minutes.',
+              'Use your tailgates to give warning to other drivers.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 117
+  question: 'You must stop on a hill or curve on a two-lane two-way road. How far should you place reflective triangles?'
+  right: C
+  variants: [
+              'As far back as necessary to others can see you.',
+              'Within 200 feet behind you.',
+              'Within 500 feet behind you.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 118
+  question: 'Stab braking should not be used on a vehicle with:'
+  right: B
+  variants: [
+              'Trailers.',
+              'V Antilock brakes.',
+              'Hazardous materials.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 119
+  question: 'Which of the statement about marking a stopped vehicle is true?'
+  right: B
+  variants: [
+              'If a hill or curve keeps a driver behind you from seeing the vehicle within 100 feet the rear reflective triangle should be moved down the road to give adequate warning.',
+              'You must put out your emergency flashers within five minutes.',
+              'The vehicle tail-lights should be kept onto warn other drivers.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 120
+  question: 'Sometimes you need to leave a road to avoid a hazard or emergency. When you do so you should keep in mind, that'
+  right: C
+  variants: [
+              'Most shoulders are not strong enough to support a heavy vehicle.',
+              'You might be unable to re-enter the road because of the gravel used on shoulders.',
+              'It is less dangerous to drive onto the shoulders than to make a collision.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 121
+  question: 'Which of the following is NOT a characteristic of the front tire failure?'
+  right: A
+  variants: [
+              'Vehicle''s fishtail.',
+              'Steering wheel twisting.',
+              'Cold steering.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 122
+  question: 'Most skids:'
+  right: C
+  variants: [
+              'Happen on ice.',
+              'Do not happen with radial tires.',
+              'Are caused by going too fast or trying to stop too quickly.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 123
+  question: 'In a bad weather many car drivers tailgate large vehicle. What should you do?'
+  right: A
+  variants: [
+              'Increase your following distance.',
+              'Lightly tap your brake to warn the tailgater to drop back.',
+              'Speed up to distance yourself from the tailgater.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 124
+  question: 'Which of following systems should receive extra attention during winter weather inspection?'
+  right: B
+  variants: [
+              'Suspension.',
+              'Exhaust',
+              'Steering'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 125
+  question: 'What happens to tar on the road pavement during hot whether?'
+  right: C
+  variants: [
+              'Nothing.',
+              'It becomes staining making tires stick to the road',
+              'It bleeds making the road surface slippery.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 126
+  question: 'What is the best advice for a driver when a heavy fogs on curves?'
+  right: B
+  variants: [
+              'Do not drive too slowly or other drivers may hit you.',
+              'Park the track until the fog disappears.',
+              'Alternate your own high beams to improve your vision.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 127
+  question: 'In mounting driving you will have to use a lower gear to drive safely on a grade. Which of these does NOT affect your choice of gear?'
+  right: C
+  variants: [
+              'The length of the grade.',
+              'The weight of the load',
+              'Tire treads depth.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 128
+  question: 'What should you do before driving in mountains?'
+  right: A
+  variants: [
+              'Know escape ramps location on your way.',
+              'Unhook your steering axle brake.',
+              'Carry tire chains in your vehicle.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 129
+  question: 'Escape ramps:'
+  right: A
+  variants: [
+              'Should be used by any driver who looses braking power.',
+              'Are not designed for tractors-double trailers.',
+              'Are designed to slow vehicles so they can get back on the road at the safe speed'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 130
+  question: 'Which of these is true about notifying the authorities after an accident occurs?'
+  right: C
+  variants: [
+              'An exact location is not necessary, just identify the road and the vehicles involved',
+              'You should notify authorities about an accident before doing anything else.',
+              'If you have a cellular phone or CB radio you should notify the authorities before exiting the vehicle.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 131
+  question: 'If you are not sure what to use to put out the hazardous material fire you should:'
+  right: A
+  variants: [
+              'Wait for fire fighters.',
+              'Use water.',
+              'Use dirt'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 132
+  question: 'Which of these is NOT a danger of a rough acceleration?'
+  right: B
+  variants: [
+              'Mechanical damage.',
+              'Tire damage.',
+              'Damage of a coupling'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 133
+  question: 'Which of these lights cannot be checked at the same time?'
+  right: C
+  variants: [
+              'Turn signals, tail-lights, and clearance lights.',
+              'Turn signals, brake lights, and four way flashers.',
+              'Headlights, brake lights, and clearance lights.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 134
+  question: 'You are inspecting hydraulic brakes. You should pump the brake pedal three times then apply firm pressure to the pedal for five seconds. If the brakes are working properly, the pedal should:'
+  right: A
+  variants: [
+              'Depress slightly.',
+              'Sink to the floor.',
+              'Not move.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 135
+  question: 'Drivers of truck and tractors-trailers with cargo must check that the cargo is well secured within the first miles of the trip.'
+  right: A
+  variants: [
+              '25',
+              '10',
+              '50'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 136
+  question: 'When starting a bus on a level surface with good traction there is often no need for:'
+  right: A
+  variants: [
+              'Parking brakes,',
+              'A tire check.',
+              'Slow acceleration.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 137
+  question: 'How the weight of the vehicle affects stopping?'
+  right: C
+  variants: [
+              'Fully loaded trucks take longer to stop than empty ones but buses loaded with passengers take less distance to stop than empty one.',
+              'Brakes work the same no matter what the weight of both trucks and buses.',
+              'Empty trucks take longer to stop than if loaded, but this is not the normally case for buses.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 138
+  question: 'When you are starting to move up a hill from a stop:'
+  right: A
+  variants: [
+              'Release the parking brakes as you apply engine power.',
+              'Engage the clutch and accelerate quickly.',
+              'Keep the trailer brake hand valve applied until you reach 20 mph.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 139
+  question: 'Which is a true about using a heater?'
+  right: C
+  variants: [
+              'You must have at least one extra heater such as a mirror heater, battery pack heater or fuel tank heater when at a temperature below freezing.',
+              'If you feel sleepy, warming your cab with the heater will help you stay alert',
+              'When driving in winter weather, you should check that the heater is working properly before starting your trip.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 140
+  question: 'Why is a damaged exhaust system a danger?'
+  right: B
+  variants: [
+              'Noise can damage the driver’s еаrs.',
+              'Poisonous fumes carpenter into the cab or sleeping compartment',
+              'You can pollute the air with the exhaust smoke.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 141
+  question: 'Which of these is NOT a danger when an automatic transmission is forced into a low gear at a high speed?'
+  right: C
+  variants: [
+              'loss of engine braking effect.',
+              'Damage to the transmission.',
+              'A loss of steering control.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 142
+  question: 'Perception distance is the distance your vehicle travels from the time:'
+  right: C
+  variants: [
+              'Your eyes see a hazard to the time your foot pushes to the brake pedal',
+              'The brain tells the foot to push the brake pedal to time the foot responses',
+              'The eyes see a hazard to the time the brain knows that this is a hazard'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 143
+  question: 'Extra care is needed to keep your vehicle centered in your lane because commercial vehicles:'
+  right: B
+  variants: [
+              'Require a lot of room to change lanes.',
+              'Are often wider than other vehicles.',
+              'Tend to sway from time to time.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 144
+  question: 'You should lightly apply your brakes to flash the brake lights if:'
+  right: A
+  variants: [
+              'You are about to exit the road and need to slow down.',
+              'A police car is approaching you from the other direction.',
+              'A driver tailgates your vehicle.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 145
+  question: 'Merging on to the road is safest if you:'
+  right: A
+  variants: [
+              'Wait for a large enough gap in the traffic to enter the road',
+              'Bend over into the nearest lane so the other vehicle will give you room.',
+              'Gain speed en the shoulder and then merge.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 146
+  question: 'Which of these is NOT something you should do if your headlights are not working property?'
+  right: A
+  variants: [
+              'Leave on your high beams.',
+              'Clean your headlights.',
+              'Adjust headlights.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 147
+  question: 'Which of the statement about backing a heavy vehicle is not true?'
+  right: C
+  variants: [
+              'You should back and turn toward the driver''s side whenever it is possible.',
+              'You should use a helper and communicate with him with hand signals.',
+              'Because you cannot see you should back slowly until you slightly bumped into the dock.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 148
+  question: 'The distance that you should look ahead of your vehicle while driving is about at low speed'
+  right: A
+  variants: [
+              '1 block.',
+              '2 blocks.',
+              '1/2 blocks.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 149
+  question: 'Which of these is correct about emergency or evasive action?'
+  right: A
+  variants: [
+              'In order to turn quickly you must have a firm grip on the steering wheel.',
+              'You can stop more quickly than you can turn to miss obstacles.',
+              'Stopping is always the safest thing to do in a traffic emergency.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 150
+  question: 'What does emergency braking means?'
+  right: A
+  variants: [
+              'Responding to а hazard by slowing the vehicle.',
+              'Pushing down the brake pedal as hard as you can.',
+              'Using the vehicle emergency brakes.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 151
+  question: 'When driving in cold weather your tire tread should:'
+  right: A
+  variants: [
+              'Provide enough touch into steer and push the vehicle through snow.',
+              'Be double the depth required in normal weather.',
+              'Be checked every one hundred miles or every 2 hours.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 152
+  question: 'Which of these is true about hauling of hazardous materials?'
+  right: B
+  variants: [
+              'Cylinders with compressed gases should be transported under covers if there is no label on them',
+              'Such a load should be marked with a four inch diamond shaped labels on the containers.',
+              'Such a load should be marked with a four inch circle red colored labels on the containers.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 153
+  question: 'Which vehicle will have the most difficulties staying in its lane during strong wind?'
+  right: A
+  variants: [
+              'A double with an empty trailer.',
+              'A tractor pulling a loaded flat bed trailer.',
+              'A triple axle vehicle with cargo.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 154
+  question: 'Why your vehicle speed naturally increases on a downgrade?'
+  right: A
+  variants: [
+              'Gravity.',
+              'The engine runs smoother.',
+              'Lack of traction.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 155
+  question: 'During the vehicle inspection checking of ______ will NOT prevent a fire?'
+  right: A
+  variants: [
+              'Battery fluid level',
+              'Cargo ventilation.',
+              'Electrical system isolation.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 156
+  question: 'When it is necessary to learn how afire extinguisher works?'
+  right: A
+  variants: [
+              'Before the fire happens.',
+              'Only when the fire happens.',
+              'Only when you are transporting flammable materials.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 157
+  question: 'What is the mast important reason to inspect your truck or bus?'
+  right: A
+  variants: [
+              'Safety.',
+              'To avoid being cited',
+              'It''s the law.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 158
+  question: 'You are checking your steering and exhaust system in a pre-trip inspection. Which of these problems, if found, should be fixed before the vehicle is driven:'
+  right: A
+  variants: [
+              'Steering wheel play of more than 10 degrees (2 inches on 20 inches steering wheel).',
+              'Oil on a tire rod',
+              'If a gray smoke is coming out from the exhaust pipe.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 159
+  question: 'Convex (curved) mirrors:'
+  right: C
+  variants: [
+              'Make objects appear closer than they really are.',
+              'Make objects appear larger than they really are.',
+              'Show a wider area than flat mirrors show.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 160
+  question: 'Why it is important to shift gears correctly?'
+  right: A
+  variants: [
+              'To keeps control of the vehicle.',
+              'Keep the engine warm',
+              'Keep the engine oil flowing.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 161
+  question: 'What three distances build up the total stopping distance of your truck or bus?'
+  right: C
+  variants: [
+              'Attention distance, reaction distance, slowing distance.',
+              'Response distance, observation distance, and braking distance.',
+              'Perception distance, reaction distance, braking distance.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 162
+  question: 'Which of these actions are not recommended for a left turn?'
+  right: A
+  variants: [
+              'Start at the inside lane and swing right as you turn.',
+              'Use a right hand turn lane if there are two turning lanes.',
+              'Start your turn in the center of the intersection.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 163
+  question: 'When you are passing other vehicles, pedestrians or bicycles you should assume that:'
+  right: A
+  variants: [
+              'They may be moving to your traffic lane,',
+              'They know you are trying to pass,',
+              'They see your vehicle.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 164
+  question: 'In your minor you see a car approaching from the rear, the next time you check your mirror you do not see the car, you wish to change the lane, you should:'
+  right: A
+  variants: [
+              'Wait until you are sure that car is not in your blind spot to change lane.',
+              'Ease to another lane very slowly so car beside you can get out of your way.',
+              'Assume the car left the road and changed lane.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 165
+  question: 'Which of these is the proper way to signal to change lane?'
+  right: B
+  variants: [
+              'Signal early and change lanes slowly and smoothly.',
+              'Signal before the change and move over quickly.',
+              'Signal after you begin changing lanes and cross over slowly.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 166
+  question: 'You are driving in an area with a few street lights. If you cannot see well with your headlights, which of these actions may help:'
+  right: C
+  variants: [
+              'Find another route that is better lit even if it is out of your way.',
+              'Turn your interior lights on and adjust your instrument lights.',
+              'Use your high beams when legal and keep your interior lights off.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 167
+  question: 'Most serious skid results from:'
+  right: A
+  variants: [
+              'Driving to fast for conditions.',
+              'Turning too sharply.',
+              'An uneven load'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 168
+  question: 'What should be true about other drivers?'
+  right: C
+  variants: [
+              'Mail or delivery trucks are professionals and do not pose a hazard',
+              'Drivers who use turn signals always should be trusted to turn to direction, which they indicate.',
+              'Short term or daily rental truck drivers are often not used to the limited vision and pose s hazard'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 169
+  question: 'What is true about bad weather and driving conditions?'
+  right: A
+  variants: [
+              'When the temperature drops the bridges freeze before the road,',
+              'The road is more slippery when the rain continues than when rain begins.',
+              'Driving conditions became more dangerous when temperatures rise above freezing.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 170
+  question: 'Which of these statements of hazard of vehicle fire is true?'
+  right: A
+  variants: [
+              'Poor cargo ventilation may cause cargo to catch fire.',
+              'Carrying a fully charged fire extinguisher may prevent a fire.',
+              'Under-inflated tire do not cause a vehicle fire.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 171
+  question: 'You should wear a seat belt in a moving vehicle:'
+  right: B
+  variants: [
+              'Only when you are driving.',
+              'At all times.',
+              'Only when you are on a highway.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 172
+  question: 'Which of these items is not checked for a pre-trip inspection?'
+  right: B
+  variants: [
+              'That all lights are working.',
+              'Amount of fuel in a vehicle.',
+              'Cargo securement'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 173
+  question: 'Which of the statements about pre-trip inspection is true?'
+  right: C
+  variants: [
+              'When you park on a street, you should walk so you face away from an oncoming traffic',
+              'Leave your key in the ignition so you do not lose it when you are under the truck.',
+              'If you need to tilt the cab, secure loose things so they do not fall or break anything.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 174
+  question: 'Can state inspectors inspect your truck or bus?'
+  right: C
+  variants: [
+              'No.',
+              'Yes, but cannot put you out of service.',
+              'Yes and they can put you out of service if unsafe.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 175
+  question: 'Which of these statements about cargo loading is true?'
+  right: A
+  variants: [
+              'A state law dictates legal weight limits.',
+              'If cargo is loaded by the shipper a driver is not responsible for his load',
+              'The legal maximum weight allowed by the state is considered safe for all driving conditions.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 176
+  question: 'Which of these is not required knowledge for a driver, who needs a hazardous material endorsement?'
+  right: A
+  variants: [
+              'Basic chemistry.',
+              'Which products can be loaded together?',
+              'When use placards.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 177
+  question: 'To determine the alcohol concentration level for an individual it is necessary to know.'
+  right: A
+  variants: [
+              'How much a person weight.',
+              'How often a person drinks alcohol.',
+              'How old is a person.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 178
+  question: 'Implied consent means:'
+  right: C
+  variants: [
+              'You are giving your consent to inspection your vehicle for alcohol.',
+              'It is understood that you may drink alcohol now and then.',
+              'You give your consent to be tested for alcohol in your blood'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 179
+  question: 'The engine brake effect is greater when the engine is ______ governed RPM and the transmission is on a _______ gear.'
+  right: A
+  variants: [
+              'Near, lower.',
+              'Below, higher.',
+              'Above, lower.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 180
+  question: 'You are driving a 40-feet vehicle at 55 mph. The road is dry and visibility is gooD What is a least amount of space that you need to have in front of your vehicle?'
+  right: B
+  variants: [
+              '4 seconds.',
+              '5 seconds.',
+              '6 seconds.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 181
+  question: 'What should you do if a car coining toward you at night keeps its high beams on?'
+  right: B
+  variants: [
+              'Rash your high beams quickly at the other driver.',
+              'Look to the right lane or edge markings of the road',
+              'Slow down and look straight ahead in your lane.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 182
+  question: 'If you must stop into the oncoming lane as you make a turn, you should:'
+  right: A
+  variants: [
+              'Watch for oncoming traffic',
+              'Complete your turn without stopping.',
+              'Back up to allow the oncoming traffic to pass.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 183
+  question: 'Which of these is true about driving in a tunnel?'
+  right: C
+  variants: [
+              'Emergency flashers are required by law.',
+              'Headlights are required by law.',
+              'There may be strong winds when exiting.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 184
+  question: 'You should use your mirrors to check:'
+  right: A
+  variants: [
+              'Where the rear of your vehicle is while you make turn',
+              'If your turning lights are working properly.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 185
+  question: 'You should use your horn when:'
+  right: A
+  variants: [
+              'If it helps to avoid a crash.',
+              'A car is in your way.',
+              'You want to change a lane.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 186
+  question: 'If a coolant container is a part of a pressurized system, which of these is true:'
+  right: B
+  variants: [
+              'You never need to check the level of coolant of such a system',
+              'You can check the coolant level when the engine is hot.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 187
+  question: 'Which of these is a danger of crossing the railroad tracks on a dirt road?'
+  right: B
+  variants: [
+              'You tires are sinking into the dirt and cannot cross the track.',
+              'You can get hung up halfway across the track.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 188
+  question: 'The tread depth on front steering wheels tires should be:'
+  right: A
+  variants: [
+              'Not less than 4/32 inch.',
+              'More than 6/32 inch.',
+              'Not less than 2/32 inch.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 189
+  question: 'Your vehicle will be put out of service if _______ or more leaves in any leaf spring are missing.'
+  right: A
+  variants: [
+              '1/4.',
+              '1/3.',
+              '1/2.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 190
+  question: 'Brake drums (or discs) must not have cracks longer than _________ the width of the friction area.'
+  right: A
+  variants: [
+              '1/2.',
+              '1/3.',
+              '1/10.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 191
+  question: 'A hazard:'
+  right: A
+  variants: [
+              'Is any road condition or other road user that may pose a danger?',
+              'Cannot turn into an emergency.',
+              'Does not need to be seen.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 192
+  question: 'You are driving a heavy vehicle. You must exit a highway using an off-ramp that curves downhill. You should:'
+  right: B
+  variants: [
+              'Slow to the posted speed limit for the off-ramp.',
+              'Slow down to 5 mph. below the posted speed limit.',
+              'Slow down to 15 mph below the posted speed limit'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 193
+  question: 'Which of these rigs have more chances to "off-track" while making turn?'
+  right: B
+  variants: [
+              'Tractor with a 45-feet trailer.',
+              'Tractor with two 27-feet trailers.',
+              'A 53-feet straight truck.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 194
+  question: 'How much space in front of you is needed while driving on a highway?'
+  right: A
+  variants: [
+              '1 second for each 10 feet of vehicle length.',
+              '1 second for each 20 feet of vehicle length.',
+              '1 second for each 30 feet of vehicle length.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 195
+  question: 'Medicine used to treat the common cold:'
+  right: B
+  variants: [
+              'Should only be used when driving at daytime.',
+              'Often makes you sleepy and should not be used while driving.',
+              'May still be used while driving if you use half of a regular dose.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 196
+  question: 'Which of these should you not do in an emergency situation?'
+  right: B
+  variants: [
+              'You should brake in a way that keeps your vehicle in a straight line.',
+              'It is not important how you brake in emergency situation.',
+              'You should avoid using the brakes until your speed is down to 40 mph'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 197
+  question: 'The primary cause of fatal crashes is:'
+  right: C
+  variants: [
+              'Driving at night',
+              'Driving while eating.',
+              'Driving too fast.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 198
+  question: 'A car suddenly cuts in front of you, creating a hazard Which of these actions should you NOT take?'
+  right: A
+  variants: [
+              'Honk your horn and stay close ON behind the car.',
+              'Signal and change lanes to avoid it',
+              'Slow down to prevent a crash.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 199
+  question: 'What should you do when you see a hazard in the roadway ahead of you?'
+  right: C
+  variants: [
+              'Steer around it and get back in your lane.',
+              'Stop quickly and pull to the side of the road',
+              'Use your four way flashers or brake lights to warn others.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 200
+  question: 'If your brakes fail on a down grade, you must first'
+  right: C
+  variants: [
+              'Look outside your vehicle for another means of slowing your vehicle.',
+              'Hit some object in order to stop your vehicle.',
+              'Find an escape ramp in order to exit the roadway.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 201
+  question: 'You should always turn on your emergency four way flashers when you:'
+  right: B
+  variants: [
+              'Drive through the mountains.',
+              'Park on the side of the road',
+              'Cross railway tracks.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 202
+  question: 'Should brake adjustment be checked often?'
+  right: C
+  variants: [
+              'It depends on how new the brakes are.',
+              'No, because the other brakes will make up for the air brakes when they are out of adjustment',
+              'Yes, because the brakes can get out of adjustment when they are used a lot.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 203
+  question: 'Which of these is true about mirror adjustments?'
+  right: A
+  variants: [
+              'You should adjust your mirrors before stating the trip.',
+              'You should adjust your mirrors while you are driving.',
+              'The mirrors could be adjusted correctly even if the trailer is not straight'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 204
+  question: 'When you are driving on a snow packed road, you should reduce your speed by:'
+  right: C
+  variants: [
+              '1/3',
+              '1/4',
+              '1/2'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 205
+  question: 'The bridge formula?'
+  right: A
+  variants: [
+              'Permits less maximum axle weight for the axles that are close together.',
+              'Permits less maximum axle weight for the axles that are far apart.',
+              'Permits the same maximum axle, weight for any axle.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 206
+  question: 'Which of these is true about hours of service?'
+  right: B
+  variants: [
+              'After you have reached a thousand hours of service you''ll be exempt from service regulations.',
+              'You should allow enough hours to rest',
+              'You have to take a break after every two hours of driving.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 207
+  question: 'Which of these is true about the use of drugs while driving?'
+  right: C
+  variants: [
+              'Prescription or non-prescription drugs are allowed at any time when driving.',
+              'Use of amphetamine is allowed if you are using this drug to stay alert',
+              'Prescription drugs are allowed if a doctor says they will not affect the driving ability.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 208
+  question: 'Which of these is true about proper use of a steering wheel?'
+  right: A
+  variants: [
+              'If you do not hold a wheel with both hands it could pull away from you.',
+              'If you have reached a cruising speed on a highway you can drive with one hand',
+              'Only while attempting a difficult turn should you use both hands on the wheel'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 209
+  question: 'When do you need a helper to back your vehicle?'
+  right: B
+  variants: [
+              'Only if you need to park.',
+              'Whenever you have to back.',
+              'Only if you have a trailer on your vehicle.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 210
+  question: 'To avoid an accident you moved to the shoulder. To return to the road:'
+  right: C
+  variants: [
+              'Ride on shoulder to the next exit and then re-enter the road',
+              'Using mirrors and turn signals turn sharply to get back to the road',
+              'Using mirrors and turn signals return when the road is clear.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 211
+  question: 'Which of these would not help if windshield covered with ice?'
+  right: A
+  variants: [
+              'Brush.',
+              'Scraper.',
+              'Defroster.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 212
+  question: 'Which of these tells you that the shipment contains a hazardous material?'
+  right: D
+  variants: [
+              'Hazardous class in a shipping paper.',
+              'Four-inch diamond shaped tag on a container.',
+              'Hazardous materials placards.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 213
+  question: 'Heavy vehicles often move slower than others do. Which of these is NOT a good rule to follow while driving a heavy vehicle?'
+  right: C
+  variants: [
+              'Stay on a right side of the road',
+              'Use four-way flashers if it is legal in your state.',
+              'A Signal other drivers when it is safe to pass you.',
+              'Overpass other vehicles only if you can do it fast'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 214
+  question: 'Containerized loads:'
+  right: C
+  variants: [
+              'Are not required to be inspected by a driver.',
+              'Should be supplied with their own tie-down devices or locks.',
+              'Generally are used when freight is carried part of the way by rail or ship.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 215
+  question: 'When driving a commercial vehicle with a height over 13 feet, you should:'
+  right: C
+  variants: [
+              'Not worry about height clearance as long as you stay on state or federal highways.',
+              'Assume all clearances are high enough.',
+              'Stop and make sure if you aren''t sure a clearance is high enough.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 216
+  question: 'When should you test you brake?'
+  right: B
+  variants: [
+              'While moving at a very low speed',
+              'While the vehicle is parked',
+              'While, traveling at least 10 mph.',
+              'When backing.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 217
+  question: 'When going down a long or steep downgrade you should always:'
+  right: B
+  variants: [
+              'Use only your trailer brakes.',
+              'Use the braking effect of the engine.',
+              'Use controlled braking.',
+              'Brake when you exceed «safe speed» by 5 mph'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 218
+  question: 'Controlled braking is:'
+  right: B
+  variants: [
+              'Slamming on the brakes hard and making wheels lock up.',
+              'Squeezing the brakes firmly without locking them up.',
+              'Pressing brakes until wheel lock-up occurs, releasing and then re-applying.',
+              'None of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 219
+  question: 'If you are convicted of a traffic violation you should notify your employer within 30 days if the following is true:'
+  right: D
+  variants: [
+              'The violation occurred in your personal vehicle',
+              'The violation occurred in a commercial vehicle',
+              'The violation was for parking in a restricted area',
+              'both a & b'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 220
+  question: 'A commercial motor vehicle is defined as:'
+  right: D
+  variants: [
+              'A vehicle with a gross weight over 26,001 lbs.',
+              'A vehicle transporting hazardous materials',
+              'A vehicle transporting 16 or more passengers',
+              'All of the above'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 221
+  question: 'Suspension systems are intended to:'
+  right: B
+  variants: [
+              'Keep the load in place',
+              'Keep the axles in place',
+              'Keep the brake drums from failing',
+              'Keep the steering wheel tight'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 222
+  question: 'Why should the exhaust system be checked?'
+  right: A
+  variants: [
+              'A leaking exhaust system can allow poisonous fumes into the cab',
+              'A leaking exhaust system can promote poor fuel mileage',
+              'A leaking exhaust system can be caused by snow and rain',
+              'A leaking exhaust system can hamper your visibility'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 223
+  question: 'Which of the following is NOT part of the pre-trip inspection?'
+  right: C
+  variants: [
+              'Check engine oil level',
+              'Check horn(s)',
+              'Check air seat adjustments',
+              'Check seat belt fastener'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 224
+  question: 'Tires should be checked for wear often and should be replaced:'
+  right: D
+  variants: [
+              'When the tread separates',
+              'When there are broken valve stems',
+              'If the tread depth on your front tires is less than 4/32 deep',
+              'All of the above'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 225
+  question: 'The proper way to hold your hands on the steering wheel is:'
+  right: B
+  variants: [
+              'Near the bottom of the wheel',
+              'Opposite sides of the wheel',
+              'Near the top of the wheel',
+              'One hand on the steering wheel and one on the shifter'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 226
+  question: 'When backing up your tractor trailer you should try to AVOID:'
+  right: A
+  variants: [
+              'Backing toward the right (passenger) side',
+              'Backing toward the left (driver''s) side',
+              'Pulling ahead to reposition your trailer',
+              'Having someone help/guide you'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 227
+  question: 'When accelerating, which of the following is true?'
+  right: C
+  variants: [
+              'Always use the parking brake if you need to slow down',
+              'You should not engage the clutch before you take your foot off the brake',
+              'You should speed up smoothly and gradually and avoid jerking',
+              'Accelerate when your wheels spin in snow or rain'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 228
+  question: 'Which one of the following is true about shifting gears?'
+  right: D
+  variants: [
+              'Remain in neutral as long as possible',
+              'Allow the engine tachometer to rev into the highest range possible',
+              'You should ignore engine sounds',
+              'Understand the best RPM range for your vehicle'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 229
+  question: 'Which of the following statements about downshifting is NOT true?'
+  right: C
+  variants: [
+              'Downshift before starting down a hill',
+              'Downshift before entering a curve',
+              'Downshift when you get to the bottom of a hill',
+              'Downshift before climbing a hill'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 230
+  question: 'An engine retarder is designed to:'
+  right: A
+  variants: [
+              'Slow the vehicle down without using brakes',
+              'Apply braking power to the steering wheel',
+              'Work only with manual transmissions',
+              'Work when you accelerate'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 231
+  question: 'When driving at highway speeds, you should look 12-15 seconds ahead which is:'
+  right: C
+  variants: [
+              'At least 100 yards',
+              'At least half a mile',
+              'At least a quarter of a mile',
+              'At least one tractor trailer length'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 232
+  question: 'Which of the following statements about your mirrors is true?'
+  right: D
+  variants: [
+              'You cannot see your tires',
+              'You should be able to see any cars overtaking you',
+              'You should be able to see any vehicles behind your trailer',
+              'You should be aware that some objects may appear smaller in your mirrors'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 233
+  question: 'When using turn signals, which of the following should be avoided?'
+  right: A
+  variants: [
+              'Signal just before you start to make a turn',
+              'Signal when you want to change lanes',
+              'Signal before you exit',
+              'Signal when you are merging into traffic'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 234
+  question: 'The best way to warn the drivers behind you that you are slowing down is to:'
+  right: C
+  variants: [
+              'Blow your horn',
+              'Turn on your emergency flashers',
+              'Tap your brakes',
+              'Flash your bright lights'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 235
+  question: 'If you must stop on the shoulder of the road, you should place warning devices at all of the following places except:'
+  right: D
+  variants: [
+              'Within ten feet of the front or rear corners',
+              'About 100 feet behind your vehicle',
+              'About 100 feet in front of your vehicle',
+              'On the other side of a divided highway'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 236
+  question: 'Which of the following statements about stopping distances is NOT true?'
+  right: C
+  variants: [
+              'Empty trucks require greater stopping distances because they have less traction',
+              'Trucks traveling on ice or snow require greater stopping distances',
+              'Brakes, tires, springs and shocks are designed to work best when the truck is empty',
+              'Trucks traveling at higher speeds require greater stopping distances'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 237
+  question: 'At 55 miles-per-hour it takes about 6 seconds to stop a fully loaded truck and the braking distance is:'
+  right: A
+  variants: [
+              'About the length of a football field or 100 yards',
+              'About 1/4 mile',
+              'About two truck lengths',
+              'About two car lengths'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 238
+  question: 'When is the road likely to be more slippery?'
+  right: C
+  variants: [
+              'After a hard rain',
+              'After it has been raining lightly for 30 minutes',
+              'When it has just begun to rain',
+              'After the rain has ended'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 239
+  question: 'Hydroplaning can occur when you drive through water or slush. If you experience hydroplaning you should:'
+  right: B
+  variants: [
+              'Lightly tap your brakes to slow down',
+              'Release the accelerator and push in the clutch',
+              'Steer hard to the right',
+              'Speed up to get through the water quickly'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 240
+  question: 'Which of the following is NOT true when driving through a curve?'
+  right: B
+  variants: [
+              'You should slow down before the curve',
+              'You should brake during the curve',
+              'The higher your truck''s center of gravity is, the easier it is to roll over',
+              'You should be in a gear that allows you to accelerate during the curve'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 241
+  question: 'When driving in heavy traffic you should travel:'
+  right: A
+  variants: [
+              'At a speed consistent with the flow of traffic',
+              'Five mph less than automobiles regardless of posted limits',
+              'In the left lane when possible to avoid heavy lanes of traffic',
+              'In the right lane to avoid passing'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 242
+  question: 'Safe drivers maintain space around their vehicles for the following reasons except:'
+  right: D
+  variants: [
+              'In case you must stop suddenly',
+              'In case there are cars following too closely',
+              'In case there is an obstacle in the road',
+              'In case you need to test your brakes'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 243
+  question: 'How much space should you maintain in front of you at highway speeds?'
+  right: A
+  variants: [
+              'Seven seconds for a 60 foot vehicle',
+              'Five seconds for a 60 foot vehicle',
+              'Ten seconds for a 60 foot vehicle',
+              'Three seconds for a 60 foot vehicle'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 244
+  question: 'If you find that you are being tailgated, you should:'
+  right: D
+  variants: [
+              'Quickly change lanes to avoid an accident',
+              'Flash your brake lights to warn the tailgater',
+              'Decrease the distance between you and the tailgater',
+              'Increase the distance between you and the tailgater'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 245
+  question: 'Which of the following statements about overhead space is true?'
+  right: B
+  variants: [
+              'The heights posted at bridges are usually accurate',
+              'The weight of the cargo changes a truck''s height',
+              'Warning lights are always installed on low bridges and overpasses',
+              'An empty van is lower than a loaded one'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 246
+  question: 'When making a right hand turn you should always:'
+  right: D
+  variants: [
+              'Steer into the left lane first so you can make the corner',
+              'Rush through the intersection so you can get out of the way of traffic',
+              'Back up to make the driver behind you move back',
+              'Keep the rear of your vehicle close to the curb'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 247
+  question: 'When making a left hand turn you should always:'
+  right: A
+  variants: [
+              'Wait until you reach the center of the intersection before you turn',
+              'Start in the left hand lane if there are two turning lanes',
+              'Pull into the intersection in case the light turns before you are through',
+              'Wait for a small gap in traffic and accelerate'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 248
+  question: 'Driving at night is more dangerous because of the following EXCEPT:'
+  right: C
+  variants: [
+              'Most people are less alert at night due to fatigue',
+              'Headlights often cause glare which can blind drivers',
+              'Traffic lights are less visible than in the day',
+              'There are more drunk drivers at night'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 249
+  question: 'The following statements about an engine overheating are TRUE EXCEPT:'
+  right: A
+  variants: [
+              'Antifreeze is only used in colder temperatures',
+              'You should remove the radiator cap to allow heat to escape the radiator',
+              'It is not possible to safely drive without radiator fluid',
+              'Never leave the engine running if it is overheating'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 250
+  question: 'When going down a hill you should always:'
+  right: C
+  variants: [
+              'Use higher gears when you have a heavy load',
+              'Allow the brakes to heat up for better stopping power',
+              'Be in the right gear before starting down the hill',
+              'Put heavy pressure on the brakes to allow the drums to cool'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 251
+  question: 'The best time to test your parking brake is:'
+  right: A
+  variants: [
+              'When the vehicle is parked',
+              'When the vehicle is going down a hill',
+              'When the vehicle is moving slowly',
+              'When the vehicle is traveling on the highway'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 252
+  question: 'The following are all probable signs of a tire blowout EXCEPT:'
+  right: C
+  variants: [
+              'A loud bang',
+              'Vibration of the vehicle',
+              'The smell of smoke',
+              'A thumping sound'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 253
+  question: 'In the event of a tire failure you should:'
+  right: A
+  variants: [
+              'Stay off the brake and hold the steering wheel firmly',
+              'Pump the brakes until you come to a stop',
+              'Accelerate quickly until you find a place to pull over',
+              'Disengage the clutch so you are in neutral gear'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 254
+  question: 'Your vehicle is going down a long hill and your brakes begin to fail. What should you do?'
+  right: D
+  variants: [
+              'Pump the brake pedal',
+              'Downshift',
+              'Put the gears in neutral',
+              'Look for an escape ramp or an escape route'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 255
+  question: 'To correct a drive wheel acceleration skid you should:'
+  right: A
+  variants: [
+              'Stop accelerating and push in the clutch',
+              'Downshift',
+              'Pump the brake',
+              'Accelerate quickly'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 256
+  question: 'To correct a drive-wheel braking skid you should:'
+  right: C
+  variants: [
+              'Pump the brake',
+              'Steer in the opposite direction',
+              'Release the brake and steer/counter-steer',
+              'Accelerate quickly!'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 257
+  question: 'A front wheel skid is usually caused by:'
+  right: D
+  variants: [
+              'Driving too fast for conditions',
+              'Lack of tread on the front tires',
+              'Cargo improperly loaded',
+              'All of the above'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 258
+  question: 'In the event of an accident you should remember to do the following EXCEPT:'
+  right: A
+  variants: [
+              'Move the victims out of the way immediately',
+              'Protect the area',
+              'Notify authorities',
+              'Stop any bleeding and keep the victims warm'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 259
+  question: 'Which of the following are causes of vehicle fires?'
+  right: D
+  variants: [
+              'Spilled fuel',
+              'Short circuits',
+              'Driver smoking',
+              'All of the above'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 260
+  question: 'What is the first thing to do if your vehicle catches fire while driving?'
+  right: B
+  variants: [
+              'Open the door and jump out of the vehicle',
+              'Pull off the road and park in an open area',
+              'Find a service station to pull in to',
+              'Open the hood and let the flames die down'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 261
+  question: 'Water can be used to extinguish which of the following fires?'
+  right: A
+  variants: [
+              'Tires',
+              'Electrical fire',
+              'Gasoline fire',
+              'Chemical fire'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 262
+  question: 'The best way to put out a fire is to:'
+  right: C
+  variants: [
+              'Get as close as possible and spray the flames',
+              'Stand downwind and spray the flames',
+              'Stand upwind and spray the base of the fire',
+              'Stop spraying as soon as the flames disappear'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 263
+  question: 'What is the best thing to do if you are tired?'
+  right: D
+  variants: [
+              'Drink plenty of coffee to stay awake',
+              'Take pills to keep you alert',
+              'Plan your trips for the middle of the night to avoid traffic',
+              'Get enough sleep'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 264
+  question: 'Which of the following statements about alcohol is true?'
+  right: D
+  variants: [
+              'If you eat before you drink you won''t get as drunk',
+              'Drinking coffee will help you stay sober',
+              'Fresh air will help you sober up',
+              'A few beers are the same as a few shots of whiskey or glasses of wine'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 265
+  question: 'If you do not have a HAZMAT endorsement on your CDL, under what conditions may you legally haul hazardous materials?'
+  right: B
+  variants: [
+              'If your dispatcher feels it is an emergency situation',
+              'If the load does not require placards',
+              'When you will remain within your state',
+              'When a DOT official approves the load'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 266
+  question: 'If you are asked to haul a placarded load and you do not have HAZMAT endorsements you should:'
+  right: C
+  variants: [
+              'Obtain written approval from your dispatcher',
+              'Obtain written approval from the DOT official',
+              'Refuse to take the load',
+              'Take the placards off the vehicle'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 267
+  question: 'You should check your cargo how often?'
+  right: D
+  variants: [
+              'Within 25 miles after beginning a trip',
+              'After you have driven for three hours',
+              'After you take a break',
+              'All of the above'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 268
+  question: 'Overloading your trailer can result in the following EXCEPT:'
+  right: C
+  variants: [
+              'It can slow you down on upgrades',
+              'It can increase stopping distances',
+              'It can help you go through snow better',
+              'It can increase speed on downgrades'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 269
+  question: 'Which of these is not part of the check of the engine compartment during the pre-trip inspection?'
+  right: B
+  variants: [
+              'Engine oil level',
+              'Valve clearance',
+              'Condition of belts and hoses',
+              'Worn wiring insulation'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 270
+  question: 'When checking your vehicle during the inspection which of these statements is true?'
+  right: D
+  variants: [
+              'Brake shoes should be at least ¼ inch thick.',
+              'Brake pads should not have brake fluid on them.',
+              'One missing leaf spring can be dangerous.',
+              'All of the above are true.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 271
+  question: 'A vehicle which is loaded with most of the weight on the steering axle will have:'
+  right: D
+  variants: [
+              'Better handling.',
+              'A need to disconnect the steering axle brakes.',
+              'Too little traction on the steering axle.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 272
+  question: 'Which of these will help keep an engine cool in hot weather?'
+  right: D
+  variants: [
+              'Avoiding high speed driving.',
+              'Keeping oil level in the crankcase at the full mark.',
+              'Keeping proper amount of antifreeze in the radiator.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 273
+  question: 'While driving on A two-lane road, an oncoming vehicle drifts into your lane. Which of the following should you take?'
+  right: C
+  variants: [
+              'Steer into the oncoming lane and apply hard brake.',
+              'Steer onto the left shoulder.',
+              'Steer to the right.',
+              'Steer straight and apply hard brake.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 274
+  question: 'Which of these is an indication of tire failure?'
+  right: D
+  variants: [
+              'Steering that feels heavy.',
+              'A loud "bang".',
+              'Vibration.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 275
+  question: 'Which of these statements about tires and hot weather driving is true?'
+  right: A
+  variants: [
+              'You should inspect your tires more often because the air pressure is more likely to get high.',
+              'If a tire is too hot to touch, you should drive on it to cool it off.',
+              'Recapped tires are less likely to fail in hot weather than new ones.',
+              'All of the above are true.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 276
+  question: 'You are driving in the right lane of a 4 lane, undivided road. You come over the crest of a hill and find a car stopped ahead in your lane. You do not have room to stop, and the hill blocks your view to the rear. Which of these is the best action to take?'
+  right: C
+  variants: [
+              'Steer into the left lane and apply hard brakes.',
+              'Steer onto the left shoulder.',
+              'Steer to the right.',
+              'Use hard braking and brace for collision.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 277
+  question: 'When checking your vehicle during the pre-trip inspection, which of these statements is true?'
+  right: A
+  variants: [
+              'Rust around wheel nuts may mean that they are loose.',
+              'Wheels or rims which have cracks welded are OK to use if, they have been checked by the maintenance department.',
+              'A vehicle can be safely driven with one missing lug nut on a wheel.',
+              'Mismatched lock rings can be used on the same vehicle.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 278
+  question: 'Which of these statements about loading cargo is correct?'
+  right: D
+  variants: [
+              'The legal maximum weight allowed by a state should be considered safe for all driving conditions.',
+              'Slight overloading of a vehicle can make its brakes work better.',
+              'If cargo is loaded by the shipper, the driver is not responsible for overloading.',
+              'State laws dictate legal weight limits.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 279
+  question: 'You must drive on an icy or snow covered roadway. Which of the following is a good thing to remember?'
+  right: C
+  variants: [
+              'Use a smaller following distance.',
+              'Apply the brakes during turns.',
+              'Slow down gradually and stop if conditions become too dangerous.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 280
+  question: 'In certain cases, a traffic emergency may require you to leave the road. Which of the following is true?'
+  right: C
+  variants: [
+              'If you must leave the road, try to get all wheels off the pavement.',
+              'Only apply the brakes if you are moving at a speed greater than 20 MPH.',
+              'Brake gently to avoid skidding.',
+              'Most shoulders will not support a large vehicle.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 281
+  question: 'Which of these items should be checked in a pre-trip inspection?'
+  right: D
+  variants: [
+              'All vehicle lights.',
+              'Wiper blades.',
+              'Cargo secureness.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 282
+  question: 'Which of these statements about winter driving is true?'
+  right: D
+  variants: [
+              'There is no need to worry about engine overheating when the weather is very cold',
+              'Exhaust system leaks are less dangerous in cold weather.',
+              'Wiper blades should be adjusted so that they do not make direct contact with the windshield',
+              'Windshield washer antifreeze should be added to the washer reservoir.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 283
+  question: 'Cargo that is not loaded or secured properly may cause problems. Which of these statements is correct?'
+  right: D
+  variants: [
+              'A vehicle could be damaged by over loading.',
+              'Other highway users can be hit or be hit by loose cargo.',
+              'Cargo not secured properly can cause injury to the driver or to passengers during a quick stop, crash or emergency lane change.',
+              'All of the above are true.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 284
+  question: 'The road you are driving on becomes very slippery due to glare ice. Which of these is a Good thing to do in such a situation?'
+  right: A
+  variants: [
+              'Stop driving as soon as it is safe to do so.',
+              'Downshift to stop.',
+              'Apply the brakes often to keep the lining clean.',
+              'Drive at a varying speed.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 285
+  question: 'The regulations require that cargo inspections:'
+  right: B
+  variants: [
+              'Are not the responsibility of the driver.',
+              'Should be preformed at every change of duty status.',
+              'Are only required if hazardous materials are being hauled.',
+              'Should be preformed every 6 hours or 300 miles.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 286
+  question: 'Your brakes may get wet when you drive through a heavy rainstorm. What problems can this cause when the brakes are applied?'
+  right: D
+  variants: [
+              'Wheel lock-up.',
+              'Trailer jackknife.',
+              'Lack of braking power.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 287
+  question: 'Which of these is not a good practice when protecting an accident scene?'
+  right: A
+  variants: [
+              'Do not move any of the involved vehicles off the road until law enforcement personnel arrive.',
+              'Put on your flashers.',
+              'Set out reflective triangles to warn other drivers.',
+              'If you’re stopping to help, park away from the scene.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 288
+  question: 'When looking ahead of your vehicle while driving you should:'
+  right: D
+  variants: [
+              'Look straight ahead',
+              'Look to the right side of the road',
+              'Look to the left side of the road',
+              'Look ahead and to the sides.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 289
+  question: 'You should avoid driving through deep water. But if you must, which of these steps can help keep your brakes working?'
+  right: B
+  variants: [
+              'Adjust the brakes after coming out of water.',
+              'Gently pressing the brake pedal while driving through water.',
+              'Applying hard pressure on both the brake pedal and accelerator after coming out of water.',
+              'Disconnecting the steering axle brakes after coming out of water.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 290
+  question: 'The key factor to balancing the cargo weight is to keep the load:'
+  right: D
+  variants: [
+              'In the front.',
+              'To the rear.',
+              'On the side away from most traffiC',
+              'Centered in the cargo area of the vehicle.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 291
+  question: 'The distance that you should look ahead of your vehicle while driving at highway speed is ________.'
+  right: D
+  variants: [
+              'One block.',
+              '500 feet.',
+              '800 feet.',
+              '¼ mile.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 292
+  question: 'Stab braking is:'
+  right: C
+  variants: [
+              'Never to be used',
+              'Used only on slick roads.',
+              'Locking the wheels.',
+              'Steady pressure on the brake pedal, but does not lock the wheels.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 293
+  question: 'Which is the most important point to remember about emergency braking?'
+  right: D
+  variants: [
+              'It wears the brake linings.',
+              'Disconnecting the steering axle brakes will help keep your vehicle in a straight line during emergency braking.',
+              'Never do it without downshifting first.',
+              'If the wheels begin skidding, you cannot control the vehicle.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 294
+  question: 'The correct position to place your hands on the steering wheel is at clock positions _____ and _____.'
+  right: D
+  variants: [
+              '6 and 12',
+              '4:30 and 7:30',
+              '1 and 11',
+              '3 and 9'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 295
+  question: 'Which of these statements about double clutching and shifting is true?'
+  right: B
+  variants: [
+              'It should not be used when the road is slippery.',
+              'You can use the sound of the engine to tell you when to shift.',
+              'If you use a gear while up shifting, you must bring the vehicle to a stop.',
+              'It involves using two clutch pedals.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 296
+  question: 'The higher the blood alcohol concentration, what is likely to happen?'
+  right: C
+  variants: [
+              'The drinker sees clearly how the alcohol is affecting him/her.',
+              'The effects of alcohol decreases.',
+              'The person becomes more dangerous if allowed to drive.',
+              'The drinker can sober up in less time.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 297
+  question: 'You are traveling down a long, steep grade and brakes begin to fade and then fail. What should you do?'
+  right: C
+  variants: [
+              'Downshift quickly.',
+              'Pump the brake pedal.',
+              'Look for an escape ramp or escape route.',
+              'All of the above.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 298
+  question: 'When braking, which technique is best to use on a long downhill grade?'
+  right: B
+  variants: [
+              'Light, pumping action.',
+              'Light, steady pressure.',
+              'Repeated strong pressure, then release.',
+              'With stronger pressure as the vehicle goes further down the hill.'
+            ]
+
+- !ruby/object:YAML::Task
+  number: 299
+  question: 'On which fires can you use the "B:C" fire extinguisher?'
+  right: D
+  variants: [
+              'Electrical fires.',
+              'Burning liquids.',
+              'Burning cloth.',
+              'Both A & B'
+            ]
+

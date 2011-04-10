@@ -1,0 +1,25 @@
+en:
+  variants: Variants
+  exit: Exit
+  question: Question
+  results: Results
+  expire: Key expiration – {days} left
+  total: Total
+  wrong: Wrong
+  right: Right
+  auth: Authorization
+  input_key: Enter key
+  input: Input
+  start_quest_number: Input start question number
+  start_with: Start with
+  start: Start all over again
+  repeat: Repeat questions with wrong answers
+  total_quest: Total answered questions
+  right_quest: Right
+  wrong_quest: Wrong
+  skip: Skip
+  day: day
+  few_days: days
+  huge_days: days
+  add_trans: Add translation
+  hide_trans: Hide translation
